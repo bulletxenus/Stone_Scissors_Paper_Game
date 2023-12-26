@@ -11,6 +11,12 @@
 		8891CC592B24535F000D793C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8891CC582B24535F000D793C /* ContentView.swift */; };
 		8891CC5B2B245366000D793C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8891CC5A2B245366000D793C /* Assets.xcassets */; };
 		8891CC5E2B245366000D793C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8891CC5D2B245366000D793C /* Preview Assets.xcassets */; };
+		8891CC652B245800000D793C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8891CC642B245800000D793C /* Card.swift */; };
+		8891CC672B246B59000D793C /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8891CC662B246B59000D793C /* CustomLayout.swift */; };
+		8891CC692B246C39000D793C /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8891CC682B246C39000D793C /* enums.swift */; };
+		8891CC6B2B24A14C000D793C /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8891CC6A2B24A14C000D793C /* Score.swift */; };
+		8891CC6D2B24A508000D793C /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8891CC6C2B24A508000D793C /* Background.swift */; };
+		8891CC6F2B24BD3C000D793C /* Hint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8891CC6E2B24BD3C000D793C /* Hint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		8891CC582B24535F000D793C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8891CC5A2B245366000D793C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8891CC5D2B245366000D793C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8891CC642B245800000D793C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		8891CC662B246B59000D793C /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		8891CC682B246C39000D793C /* enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
+		8891CC6A2B24A14C000D793C /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		8891CC6C2B24A508000D793C /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		8891CC6E2B24BD3C000D793C /* Hint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,12 @@
 				8891CC582B24535F000D793C /* ContentView.swift */,
 				8891CC5A2B245366000D793C /* Assets.xcassets */,
 				8891CC5C2B245366000D793C /* Preview Content */,
+				8891CC642B245800000D793C /* Card.swift */,
+				8891CC662B246B59000D793C /* CustomLayout.swift */,
+				8891CC682B246C39000D793C /* enums.swift */,
+				8891CC6A2B24A14C000D793C /* Score.swift */,
+				8891CC6C2B24A508000D793C /* Background.swift */,
+				8891CC6E2B24BD3C000D793C /* Hint.swift */,
 			);
 			path = SwiftUI_KaNaBu;
 			sourceTree = "<group>";
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8891CC6F2B24BD3C000D793C /* Hint.swift in Sources */,
 				8891CC592B24535F000D793C /* ContentView.swift in Sources */,
+				8891CC6D2B24A508000D793C /* Background.swift in Sources */,
+				8891CC692B246C39000D793C /* enums.swift in Sources */,
+				8891CC652B245800000D793C /* Card.swift in Sources */,
+				8891CC672B246B59000D793C /* CustomLayout.swift in Sources */,
+				8891CC6B2B24A14C000D793C /* Score.swift in Sources */,
 				8891CC572B24535F000D793C /* SwiftUI_KaNaBuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
